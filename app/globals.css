@@ -17,7 +17,7 @@ body {
 }
 
 /* Extra Small Devices (phones, 320px and up) */
-@media (min-width: 320px) {
+/* @media (min-width: 320px) {
   h1 {
     font-size: 3rem !important;
   }
@@ -32,17 +32,17 @@ body {
     padding: 1.5rem !important;
     width: fit-content;
   }
-}
+} */
 
 /* Small Devices (phones, 480px and up) */
-@media (min-width: 480px) {
+/* @media (min-width: 480px) {
   h1 {
     font-size: 3.5rem !important;
   }
-}
+} */
 
 /* Medium Devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   h1 {
     font-size: 5rem !important;
   }
@@ -54,24 +54,24 @@ body {
     right: -2.5rem !important;
     bottom: -2.5rem !important;
   }
-}
+} */
 
 /* Large Devices (desktops, 1024px and up) */
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   h1 {
     font-size: 6rem !important;
   }
-}
+} */
 
 /* Extra Large Devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   h1 {
     font-size: 8rem !important;
   }
-}
+} */
 
 /* Ensure touch targets meet minimum requirements */
-a,
+/* a,
 button,
 input,
 select,
@@ -82,20 +82,19 @@ textarea {
 img {
   max-width: 100%;
   height: auto;
-}
-
-
+} */
 
 @theme {
   --color-primary: #ffd900;
-  --background-light: #f8f8f5;
-  --background-dark: #121212;
-  --surface-dark: #1e1e1e;
-  --border-dark: #333333;
+  --color-background-light: #f8f8f5;
+  --color-background-dark: #121212;
+  --color-surface-dark: #1e1e1e;
+  --color-border-dark: #333333;
 
-  --font-display: 'Inter', sans-serif;
-  --border-radius-default: 0.25rem;
-  --border-radius-lg: 0.5rem;
-  --border-radius-xl: 0.75rem;
-  --border-radius-full: 9999px;
+  --font-display: "Inter", sans-serif;
+
+  --radius-default: 0.25rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-full: 9999px;
 }
