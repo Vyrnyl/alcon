@@ -19,7 +19,7 @@ export default function Navbar() {
         {/* Logo */}
         <div className="flex items-center gap-3">
           <div className="bg-primary p-1.5 rounded">
-            <ArchitectureIcon className="text-black text-2xl" />
+            <ArchitectureIcon className="text-black" fontSize="large" />
           </div>
           <span className="text-2xl font-black tracking-tighter uppercase italic">
             AlCon
