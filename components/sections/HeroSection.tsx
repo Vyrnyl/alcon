@@ -1,13 +1,13 @@
 import Image from "next/image";
-import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
+import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrowDown";
 
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <Image 
+        <Image
           className="object-cover"
-          alt="Construction Site" 
+          alt="Construction Site"
           src="/images/ConstructionSite.png"
           fill
         />
@@ -27,9 +27,7 @@ const HeroSection = () => {
             Solutions!
           </h1>
           <p className="text-lg md:text-xl text-slate-300 mb-10 max-w-xl leading-relaxed font-light">
-            Aliño Construction Corporation (AlCon) delivers engineering
-            excellence through high-quality projects and innovative building
-            solutions tailored for tomorrow.
+            High Quality Construction Solutions For Residentials and Industries!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 hero-btns">
             <a
