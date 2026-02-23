@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
+  
   const navLinks = [
     { label: "About", href: "#about" },
     { label: "Company Profile", href: "#companyprofile" },
@@ -18,11 +18,14 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-3">
-          <div className="bg-primary p-1.5 rounded">
-            <ArchitectureIcon className="text-black" fontSize="large" />
+          <div className="h-12 w-16 flex bg-cyan-200 rounded-sm">
+            <img 
+            className="w-full h-full rounded-sm"
+            src="/logo.png" 
+            alt="AlCon" />
           </div>
           <span className="text-2xl font-black tracking-tighter uppercase italic">
-            AlCon
+            Aliño
           </span>
         </div>
 

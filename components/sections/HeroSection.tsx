@@ -38,7 +38,7 @@ const HeroSection = () => {
             </a>
             <a
               className="border-2 border-white/20 text-white px-10 py-5 rounded-xl font-bold text-lg uppercase tracking-wider text-center hover:bg-white/10 transition-all backdrop-blur-sm"
-              href="#projects"
+              href="#companyprofile"
             >
               View Projects
             </a>

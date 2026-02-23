@@ -23,7 +23,7 @@ const AboutSection = () => {
             <div className="absolute -bottom-10 -right-10 bg-primary p-12 rounded-2xl hidden md:block about-badge">
               <div className="text-black">
                 <span className="text-6xl font-black block leading-none">
-                  400+
+                  100+
                 </span>
                 <span className="text-sm font-bold uppercase tracking-widest mt-2 block">
                   Workforce Team
