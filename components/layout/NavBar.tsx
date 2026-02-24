@@ -24,7 +24,7 @@ export default function Navbar() {
             src="/logo.png" 
             alt="AlCon" />
           </div>
-          <span className="text-2xl font-black tracking-tighter uppercase italic">
+          <span className="text-2xl font-sans font-bold tracking-wider uppercase">
             Aliño
           </span>
         </div>

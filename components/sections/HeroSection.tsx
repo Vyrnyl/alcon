@@ -17,11 +17,11 @@ const HeroSection = () => {
         <div className="max-w-3xl">
           <div className="flex items-center gap-2 mb-6">
             <div className="h-0.5 w-12 bg-primary"></div>
-            <span className="text-primary font-bold tracking-[0.3em] uppercase text-sm">
+            <span className="text-primary font-sans font-semibold tracking-[0.3em] uppercase text-sm">
               Engineering Excellence
             </span>
           </div>
-          <h1 className="text-5xl md:text-7xl font-black text-white leading-[0.9] tracking-tighter mb-8 uppercase">
+          <h1 className="text-5xl md:text-7xl font-mono font-bold text-white leading-[0.9] tracking-tighter mb-8 uppercase">
             Provide Effective <br />
             <span className="text-primary italic">Building</span> <br />
             Solutions!
@@ -44,9 +44,6 @@ const HeroSection = () => {
             </a>
           </div>
         </div>
-      </div>
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce opacity-50">
-        <KeyboardDoubleArrowDownIcon fontSize="large" />
       </div>
     </section>
   );
